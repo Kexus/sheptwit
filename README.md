@@ -20,3 +20,6 @@ A discord bot that reposts tweets
 
 ## Running the bot
 1. Lanch the bot with `python3 discordbot.py` or maybe `python3.10 discordbot.py` or whatever your current python is
+
+## About
+This bot does NOT use the X The Everything App (formerly Twitter) API. It does use the Discord api. The bot will periodically (every 30 seconds) look for new Xeets and for each one that it finds, posts a link in the designated channel. Twitter/x links are converted to [vxtwitter/fixvx](https://github.com/dylanpdx/BetterTwitFix) links.
