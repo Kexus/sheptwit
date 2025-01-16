@@ -56,6 +56,7 @@ def do_the_thing():
             for (tweet, stamp) in tweets:
                 stamp = stamp.replace("Z", "000")  # convert ms to us
                 tweet = tweet.replace("://tw", "://vxtw")
+                tweet = tweet.replace("://x.", "://fixvx.")
                 posted = datetime.strptime(stamp, "%Y-%m-%dT%H:%M:%S.%f").replace(
                     tzinfo=timezone.utc).timestamp()
                 if user in tweet.lower():
