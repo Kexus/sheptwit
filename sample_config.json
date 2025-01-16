@@ -1,0 +1,17 @@
+{
+    "DiscordToken" : "AAA.123",
+    "driverpath":"C:\\Program Files (x86)\\bin\\chromedriver.exe",
+    "twitter" : "my_twitter_account",
+    
+    "my_twitter_account" : {
+        "email" : "mytwitteremail@mail.com",
+        "pass" : "mytwitterpassword"
+    },
+    
+    "users" : 
+    [
+        { "handle" : "my_favorite_vtuber", "channel" : "12345" },
+        { "handle" : "essie_ch", "channel" : "88888"}
+    ]
+    
+}
